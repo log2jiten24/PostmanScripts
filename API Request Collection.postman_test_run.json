@@ -1,0 +1,84 @@
+{
+	"id": "db3ee546-47e3-4ef9-b73e-a63ebc1dc97a",
+	"name": "API Request Collection",
+	"timestamp": "2020-06-21T12:57:18.680Z",
+	"collection_id": "6843944a-969c-45bd-8e8f-d66a1f28484a",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "4402ccb6-ec6b-417c-ae4c-d4ef7eefdc6b",
+			"name": "Delete Request",
+			"url": "https://reqres.in/api/users/2",
+			"time": 1449,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1449
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "401662c3-27af-4f24-9556-011159c1ca42",
+			"name": "RestAPI",
+			"url": "https://reqres.in/api/users?page=1",
+			"time": 770,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				770
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "41e64009-2d3c-4c68-a052-e605c228becf",
+			"name": "Create User POST Request",
+			"url": "https://reqres.in/api/users",
+			"time": 515,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				515
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 2734,
+	"collection": {
+		"requests": [
+			{
+				"id": "4402ccb6-ec6b-417c-ae4c-d4ef7eefdc6b",
+				"method": "DELETE"
+			},
+			{
+				"id": "401662c3-27af-4f24-9556-011159c1ca42",
+				"method": "GET"
+			},
+			{
+				"id": "41e64009-2d3c-4c68-a052-e605c228becf",
+				"method": "POST"
+			}
+		]
+	}
+}
