@@ -1,0 +1,140 @@
+{
+	"info": {
+		"_postman_id": "bc5e6cdd-5e6f-4c2a-95ba-9c705e44707f",
+		"name": "motorraceAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://ergast.com/api/f1/2018/last.json",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://ergast.com/api/f1/2017/circuits.json",
+					"protocol": "http",
+					"host": [
+						"ergast",
+						"com"
+					],
+					"path": [
+						"api",
+						"f1",
+						"2017",
+						"circuits.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://ergast.com/api/f1/2017/circuits.json",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://ergast.com/api/f1/2017/circuits.json",
+					"protocol": "http",
+					"host": [
+						"ergast",
+						"com"
+					],
+					"path": [
+						"api",
+						"f1",
+						"2017",
+						"circuits.json"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://ergast.com/api/f1/2017/circuits",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://ergast.com/api/f1/2017/circuits",
+					"protocol": "http",
+					"host": [
+						"ergast",
+						"com"
+					],
+					"path": [
+						"api",
+						"f1",
+						"2017",
+						"circuits"
+					]
+				},
+				"description": "xml response"
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "b628512a-c151-4c42-abf4-d4a9aae31531",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "a69c9725-d34d-45bb-95f6-74e3ae5e4733",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
